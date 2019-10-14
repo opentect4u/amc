@@ -3,8 +3,6 @@
 <?php 
 	require '../lib/connection.php';
 	require 'include/check_login.php';
-
-
 	if(!isset($_SESSION['username']) && empty($_SESSION['username']) && !isset($_SESSION['access_type']) && empty($_SESSION['access_type']) && empty($_SESSION['flag']) && $_SESSION['access_type']!="STK"){
 		echo '<div class="header">';
 			require 'include/header.php';

@@ -1,13 +1,13 @@
 <?php
-	/*$mst_servername = "148.72.232.182:3306";
-	$mst_username = "admin_synergic";
-	$mst_password = "Signat123";
-	$mst_database = "synergic";*/
+	$mst_servername = "178.128.102.46";
+	$mst_username = "eamsyajzqt";
+	$mst_password = "sss_amc";
+	$mst_database = "eamsyajzqt";
 
-	$mst_servername = "localhost";
+	/*$mst_servername = "localhost";
 	$mst_username = "root";
 	$mst_password = "teachers";
-	$mst_database = "synergic";
+	$mst_database = "synergic";*/
 
 
 // Create connection
@@ -25,6 +25,8 @@
 //error_reporting();
 
 	$localIP = $_SERVER['SERVER_NAME'];//.'/httpdocs';//$_SERVER['HTTP_HOST'];//getHostByName(getHostName());
+
+
 
 
 //all links
